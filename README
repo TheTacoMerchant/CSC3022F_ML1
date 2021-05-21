@@ -1,0 +1,14 @@
+Makefile: 
+Used to create the python3 virtual environment and perform cleanup
+Usage
+- make
+-- This will create a virtual environment (venv) and activate it. 
+   It will also install any packages in the requirements.txt file.
+- make clean
+-- This deletes the venv directory
+
+clustering.py:
+The main python file for the assignment. Creates a text file output.txt.
+Usage
+- python3 clustering.py
+-- This runs the python script.
