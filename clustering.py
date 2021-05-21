@@ -25,6 +25,9 @@ cluster3 = []
 cent1 = (2,10)
 cent2 = (5,8)
 cent3 = (1,2)
+
+open('outfile.txt', 'w')
+
 while differentCentroids:
     itt += 1
     for datum in data:
@@ -87,5 +90,6 @@ while differentCentroids:
     cent2 = newcent2
     cent3 = newcent3
     
-
+with open("outfile.txt", "a") as of:
+    of.write("Points have remained in the same cluster for 2 iteration. Convergence achieved.")
 

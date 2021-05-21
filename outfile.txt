@@ -42,3 +42,4 @@ Centroid: (7.0,4.333333333333333)
 Cluster 3: 2 7
 Centroid: (1.5,3.5)
 
+Points have remained in the same cluster for 2 iteration. Convergence achieved.
